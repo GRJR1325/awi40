@@ -1,0 +1,43 @@
+html{
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00ffcc;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  h1 {color: #AA0066; text-shadow: 0 3px 3px #802BFF;}
+  
+  header table
+  {
+    background-color: #00ffcc;
+      padding: 15;
+      vertical-align: bottom;
+      text-align: center;
+      color: #000000;
+  }
+  .calculadora{
+    display: flex;
+    margin: 5px 5px 10px 5px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .buttons{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px 10px 5px;
+  }
+  body{
+    margin: 5px 5px 10px 5px;
+  }
+

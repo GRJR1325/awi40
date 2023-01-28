@@ -1,0 +1,25 @@
+$def with(datos)
+<!DOCTYPE html>
+<html lang="es">
+
+<html>
+<head>
+    <title>Tablas</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <th>No.</th>
+            <th>Nombres</th>
+        </thead>
+        <tbody>
+            $for i in datos:
+            <tr>
+                <td>$i[0]</td>
+                <td>$i[1]</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

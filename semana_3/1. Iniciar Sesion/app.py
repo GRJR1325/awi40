@@ -7,7 +7,7 @@ urls = (
 app = web.application(urls, globals())
 render = web.template.render("templates/")
 
-class Formulario:
+class formulario:
     def GET(self):
         return render.formulario()
 

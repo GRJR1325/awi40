@@ -15,7 +15,6 @@ class Tablas:
             ["3","Nuevo"]
         ]
         return render.tables(datos)
-            #['id':'1','nombres':"Dejah"],
 if __name__ == "__main__":
     web.config.debug= True
     app.run()

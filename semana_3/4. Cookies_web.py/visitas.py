@@ -20,6 +20,6 @@ class Visitas:
                 web.setcookie("visitas", str(1), expires="", domain=None)
                 visitas = "1"
                 
-            return "visitas" + str(visitas) + "Nombre" + nombre
+            return "visitas:" + str(visitas) + " Nombre: "  + nombre
         except Exception as e:
             return "Error " + str(e.args)
